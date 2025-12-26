@@ -1,20 +1,21 @@
 ####################################### FleetDM #######################################
 hostname: 'fleet'
-fleetdm_version: 4.11.0
+base_domain: 'nativeit.net'
+fleetdm_version: 4.78.0
 fleetdm_dl_url: 'https://github.com/fleetdm/fleet/releases/download/fleet-v{{ fleetdm_version }}/fleet_v{{ fleetdm_version }}_linux.tar.gz'
 
-fleetdm_jwt: 'super_secret_key_here'
+fleetdm_jwt: 'PsP1bjE95FGjgNv0mUnQiN6gSZVFtCSYpQlbks4gX7c='
 
 fleetdm_fqdn: '{{ hostname }}.{{ base_domain }}'
 fleetdm_port: 8443
 
 ####################################### MySQL #######################################
 mysql_version: '8.0'
-mysql_root_password: 'Changeme123!'
+mysql_root_password: 'w3pFz2Jj5pWT7Vr2B'
 
-mysql_fleetdm_db_name: 'fleetdm'
-mysql_fleetdm_username: 'fleetdm'
-mysql_fleetdm_password: 'Changeme123!'
+mysql_fleetdm_db_name: 'fleet'
+mysql_fleetdm_username: 'fleet'
+mysql_fleetdm_password: 'BmzaxQzSEe6BeLK7h'
 mysql_fleetdm_acl: 'localhost'
 
 ####################################### Redis #######################################
